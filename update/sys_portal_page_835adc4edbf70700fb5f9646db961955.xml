@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2018-01-22 21:45:59">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>snc_internal</read_roles>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2018-01-22 19:12:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>835adc4edbf70700fb5f9646db961955</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>PA Discovery</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ITOM Usage" source="x_snc_itom_usage">a9480fe0dbb38b00fb5f9646db9619ad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITOM Usage">a9480fe0dbb38b00fb5f9646db9619ad</sys_scope>
+        <sys_update_name>sys_portal_page_835adc4edbf70700fb5f9646db961955</sys_update_name>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2018-01-22 19:15:52</sys_updated_on>
+        <title>PA Discovery</title>
+        <user/>
+        <view>pa_new_tab_13</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Discovery">835adc4edbf70700fb5f9646db961955</page>
+                <summary>[ITOM] Discovery - Device Usage Total</summary>
+                <sys_created_by>nick.ryan</sys_created_by>
+                <sys_created_on>2018-01-22 19:21:44</sys_created_on>
+                <sys_id>5d8c5802db3b0700fb5f9646db961981</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>nick.ryan</sys_updated_by>
+                <sys_updated_on>2018-01-22 19:21:44</sys_updated_on>
+                <related_items_node>
+                    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                        <grid_canvas display_value="PA New Tab">075adc4edbf70700fb5f9646db961956</grid_canvas>
+                        <height>10</height>
+                        <portal_widget display_value="Created 2018-01-22 11:21:44">5d8c5802db3b0700fb5f9646db961981</portal_widget>
+                        <posx>8</posx>
+                        <posy>0</posy>
+                        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                        <sys_created_by>nick.ryan</sys_created_by>
+                        <sys_created_on>2018-01-22 19:21:44</sys_created_on>
+                        <sys_id>dd8c9802db3b0700fb5f9646db961937</sys_id>
+                        <sys_mod_count>5</sys_mod_count>
+                        <sys_name>075adc4edbf70700fb5f9646db961956</sys_name>
+                        <sys_package display_value="ITOM Usage" source="x_snc_itom_usage">a9480fe0dbb38b00fb5f9646db9619ad</sys_package>
+                        <sys_policy/>
+                        <sys_scope display_value="ITOM Usage">a9480fe0dbb38b00fb5f9646db9619ad</sys_scope>
+                        <sys_update_name>sys_grid_canvas_pane_dd8c9802db3b0700fb5f9646db961937</sys_update_name>
+                        <sys_updated_by>nick.ryan</sys_updated_by>
+                        <sys_updated_on>2018-01-22 19:22:08</sys_updated_on>
+                        <width>4</width>
+                    </sys_grid_canvas_pane>
+                </related_items_node>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2018-01-22 11:21:44">5d8c5802db3b0700fb5f9646db961981</portal_section>
+                        <sys_created_by>nick.ryan</sys_created_by>
+                        <sys_created_on>2018-01-22 19:21:44</sys_created_on>
+                        <sys_id>198c9802db3b0700fb5f9646db961931</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>nick.ryan</sys_updated_by>
+                        <sys_updated_on>2018-01-22 19:21:44</sys_updated_on>
+                        <value>[ITOM] Discovery - Device Usage Total</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2018-01-22 11:21:44">5d8c5802db3b0700fb5f9646db961981</portal_section>
+                        <sys_created_by>nick.ryan</sys_created_by>
+                        <sys_created_on>2018-01-22 19:21:44</sys_created_on>
+                        <sys_id>1d8c9802db3b0700fb5f9646db961930</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>nick.ryan</sys_updated_by>
+                        <sys_updated_on>2018-01-22 19:21:44</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2018-01-22 11:21:44">5d8c5802db3b0700fb5f9646db961981</portal_section>
+                        <sys_created_by>nick.ryan</sys_created_by>
+                        <sys_created_on>2018-01-22 19:21:44</sys_created_on>
+                        <sys_id>558c9802db3b0700fb5f9646db961931</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>nick.ryan</sys_updated_by>
+                        <sys_updated_on>2018-01-22 19:21:44</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2018-01-22 11:21:44">5d8c5802db3b0700fb5f9646db961981</portal_section>
+                        <sys_created_by>nick.ryan</sys_created_by>
+                        <sys_created_on>2018-01-22 19:21:44</sys_created_on>
+                        <sys_id>598c9802db3b0700fb5f9646db961930</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>nick.ryan</sys_updated_by>
+                        <sys_updated_on>2018-01-22 19:21:44</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2018-01-22 11:21:44">5d8c5802db3b0700fb5f9646db961981</portal_section>
+                        <sys_created_by>nick.ryan</sys_created_by>
+                        <sys_created_on>2018-01-22 19:21:44</sys_created_on>
+                        <sys_id>918c5802db3b0700fb5f9646db961982</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>nick.ryan</sys_updated_by>
+                        <sys_updated_on>2018-01-22 19:21:44</sys_updated_on>
+                        <value>677c5802db3b0700fb5f9646db961977</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2018-01-22 11:21:44">5d8c5802db3b0700fb5f9646db961981</portal_section>
+                        <sys_created_by>nick.ryan</sys_created_by>
+                        <sys_created_on>2018-01-22 19:21:44</sys_created_on>
+                        <sys_id>918c9802db3b0700fb5f9646db961931</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>nick.ryan</sys_updated_by>
+                        <sys_updated_on>2018-01-22 19:21:44</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2018-01-22 11:21:44">5d8c5802db3b0700fb5f9646db961981</portal_section>
+                        <sys_created_by>nick.ryan</sys_created_by>
+                        <sys_created_on>2018-01-22 19:21:44</sys_created_on>
+                        <sys_id>dd8c9802db3b0700fb5f9646db961930</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>nick.ryan</sys_updated_by>
+                        <sys_updated_on>2018-01-22 19:21:44</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Discovery">835adc4edbf70700fb5f9646db961955</page>
+                <summary>[ITOM] Discovery - Device Usage Trend</summary>
+                <sys_created_by>nick.ryan</sys_created_by>
+                <sys_created_on>2018-01-22 19:20:25</sys_created_on>
+                <sys_id>753cd002db3b0700fb5f9646db9619cd</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>nick.ryan</sys_updated_by>
+                <sys_updated_on>2018-01-22 19:20:25</sys_updated_on>
+                <related_items_node>
+                    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                        <grid_canvas display_value="PA New Tab">075adc4edbf70700fb5f9646db961956</grid_canvas>
+                        <height>10</height>
+                        <portal_widget display_value="Created 2018-01-22 11:20:25">753cd002db3b0700fb5f9646db9619cd</portal_widget>
+                        <posx>0</posx>
+                        <posy>0</posy>
+                        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                        <sys_created_by>nick.ryan</sys_created_by>
+                        <sys_created_on>2018-01-22 19:20:25</sys_created_on>
+                        <sys_id>863c5402db3b0700fb5f9646db96190a</sys_id>
+                        <sys_mod_count>6</sys_mod_count>
+                        <sys_name>075adc4edbf70700fb5f9646db961956</sys_name>
+                        <sys_package display_value="ITOM Usage" source="x_snc_itom_usage">a9480fe0dbb38b00fb5f9646db9619ad</sys_package>
+                        <sys_policy/>
+                        <sys_scope display_value="ITOM Usage">a9480fe0dbb38b00fb5f9646db9619ad</sys_scope>
+                        <sys_update_name>sys_grid_canvas_pane_863c5402db3b0700fb5f9646db96190a</sys_update_name>
+                        <sys_updated_by>nick.ryan</sys_updated_by>
+                        <sys_updated_on>2018-01-22 19:22:08</sys_updated_on>
+                        <width>8</width>
+                    </sys_grid_canvas_pane>
+                </related_items_node>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2018-01-22 11:20:25">753cd002db3b0700fb5f9646db9619cd</portal_section>
+                        <sys_created_by>nick.ryan</sys_created_by>
+                        <sys_created_on>2018-01-22 19:20:25</sys_created_on>
+                        <sys_id>393cd002db3b0700fb5f9646db9619ce</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>nick.ryan</sys_updated_by>
+                        <sys_updated_on>2018-01-22 19:20:25</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2018-01-22 11:20:25">753cd002db3b0700fb5f9646db9619cd</portal_section>
+                        <sys_created_by>nick.ryan</sys_created_by>
+                        <sys_created_on>2018-01-22 19:20:25</sys_created_on>
+                        <sys_id>753cd002db3b0700fb5f9646db9619ce</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>nick.ryan</sys_updated_by>
+                        <sys_updated_on>2018-01-22 19:20:25</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2018-01-22 11:20:25">753cd002db3b0700fb5f9646db9619cd</portal_section>
+                        <sys_created_by>nick.ryan</sys_created_by>
+                        <sys_created_on>2018-01-22 19:20:25</sys_created_on>
+                        <sys_id>b13cd002db3b0700fb5f9646db9619ce</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>nick.ryan</sys_updated_by>
+                        <sys_updated_on>2018-01-22 19:20:25</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2018-01-22 11:20:25">753cd002db3b0700fb5f9646db9619cd</portal_section>
+                        <sys_created_by>nick.ryan</sys_created_by>
+                        <sys_created_on>2018-01-22 19:20:25</sys_created_on>
+                        <sys_id>b93cd002db3b0700fb5f9646db9619cd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>nick.ryan</sys_updated_by>
+                        <sys_updated_on>2018-01-22 19:20:25</sys_updated_on>
+                        <value>632cd002db3b0700fb5f9646db9619c3</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2018-01-22 11:20:25">753cd002db3b0700fb5f9646db9619cd</portal_section>
+                        <sys_created_by>nick.ryan</sys_created_by>
+                        <sys_created_on>2018-01-22 19:20:25</sys_created_on>
+                        <sys_id>bd3cd002db3b0700fb5f9646db9619ce</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>nick.ryan</sys_updated_by>
+                        <sys_updated_on>2018-01-22 19:20:25</sys_updated_on>
+                        <value>[ITOM] Discovery - Device Usage Trend</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2018-01-22 11:20:25">753cd002db3b0700fb5f9646db9619cd</portal_section>
+                        <sys_created_by>nick.ryan</sys_created_by>
+                        <sys_created_on>2018-01-22 19:20:25</sys_created_on>
+                        <sys_id>f93cd002db3b0700fb5f9646db9619ce</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>nick.ryan</sys_updated_by>
+                        <sys_updated_on>2018-01-22 19:20:25</sys_updated_on>
+                        <value>line_bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2018-01-22 11:20:25">753cd002db3b0700fb5f9646db9619cd</portal_section>
+                        <sys_created_by>nick.ryan</sys_created_by>
+                        <sys_created_on>2018-01-22 19:20:25</sys_created_on>
+                        <sys_id>fd3cd002db3b0700fb5f9646db9619cd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>nick.ryan</sys_updated_by>
+                        <sys_updated_on>2018-01-22 19:20:25</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Discovery">835adc4edbf70700fb5f9646db961955</page>
+                <summary>[ITOM] Discovery - Server Usage Trend</summary>
+                <sys_created_by>nick.ryan</sys_created_by>
+                <sys_created_on>2018-01-22 19:14:20</sys_created_on>
+                <sys_id>bcda1c8edbf70700fb5f9646db96192b</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>nick.ryan</sys_updated_by>
+                <sys_updated_on>2018-01-22 19:14:20</sys_updated_on>
+                <related_items_node>
+                    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                        <grid_canvas display_value="PA New Tab">075adc4edbf70700fb5f9646db961956</grid_canvas>
+                        <height>10</height>
+                        <portal_widget display_value="Created 2018-01-22 11:14:20">bcda1c8edbf70700fb5f9646db96192b</portal_widget>
+                        <posx>0</posx>
+                        <posy>10</posy>
+                        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                        <sys_created_by>nick.ryan</sys_created_by>
+                        <sys_created_on>2018-01-22 19:14:21</sys_created_on>
+                        <sys_id>45da1c8edbf70700fb5f9646db96192f</sys_id>
+                        <sys_mod_count>10</sys_mod_count>
+                        <sys_name>075adc4edbf70700fb5f9646db961956</sys_name>
+                        <sys_package display_value="ITOM Usage" source="x_snc_itom_usage">a9480fe0dbb38b00fb5f9646db9619ad</sys_package>
+                        <sys_policy/>
+                        <sys_scope display_value="ITOM Usage">a9480fe0dbb38b00fb5f9646db9619ad</sys_scope>
+                        <sys_update_name>sys_grid_canvas_pane_45da1c8edbf70700fb5f9646db96192f</sys_update_name>
+                        <sys_updated_by>nick.ryan</sys_updated_by>
+                        <sys_updated_on>2018-01-22 19:22:08</sys_updated_on>
+                        <width>8</width>
+                    </sys_grid_canvas_pane>
+                </related_items_node>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2018-01-22 11:14:20">bcda1c8edbf70700fb5f9646db96192b</portal_section>
+                        <sys_created_by>nick.ryan</sys_created_by>
+                        <sys_created_on>2018-01-22 19:14:20</sys_created_on>
+                        <sys_id>34da1c8edbf70700fb5f9646db96192e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>nick.ryan</sys_updated_by>
+                        <sys_updated_on>2018-01-22 19:14:20</sys_updated_on>
+                        <value>[ITOM] Discovery - Server Usage Trend</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2018-01-22 11:14:20">bcda1c8edbf70700fb5f9646db96192b</portal_section>
+                        <sys_created_by>nick.ryan</sys_created_by>
+                        <sys_created_on>2018-01-22 19:14:20</sys_created_on>
+                        <sys_id>38da1c8edbf70700fb5f9646db96192d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>nick.ryan</sys_updated_by>
+                        <sys_updated_on>2018-01-22 19:14:20</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2018-01-22 11:14:20">bcda1c8edbf70700fb5f9646db96192b</portal_section>
+                        <sys_created_by>nick.ryan</sys_created_by>
+                        <sys_created_on>2018-01-22 19:14:20</sys_created_on>
+                        <sys_id>70da1c8edbf70700fb5f9646db96192e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>nick.ryan</sys_updated_by>
+                        <sys_updated_on>2018-01-22 19:14:20</sys_updated_on>
+                        <value>line_bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2018-01-22 11:14:20">bcda1c8edbf70700fb5f9646db96192b</portal_section>
+                        <sys_created_by>nick.ryan</sys_created_by>
+                        <sys_created_on>2018-01-22 19:14:20</sys_created_on>
+                        <sys_id>74da1c8edbf70700fb5f9646db96192d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>nick.ryan</sys_updated_by>
+                        <sys_updated_on>2018-01-22 19:14:20</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2018-01-22 11:14:20">bcda1c8edbf70700fb5f9646db96192b</portal_section>
+                        <sys_created_by>nick.ryan</sys_created_by>
+                        <sys_created_on>2018-01-22 19:14:20</sys_created_on>
+                        <sys_id>b8da1c8edbf70700fb5f9646db96192c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>nick.ryan</sys_updated_by>
+                        <sys_updated_on>2018-01-22 19:14:20</sys_updated_on>
+                        <value>a465504adbf70700fb5f9646db9619ea</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2018-01-22 11:14:20">bcda1c8edbf70700fb5f9646db96192b</portal_section>
+                        <sys_created_by>nick.ryan</sys_created_by>
+                        <sys_created_on>2018-01-22 19:14:20</sys_created_on>
+                        <sys_id>bcda1c8edbf70700fb5f9646db96192d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>nick.ryan</sys_updated_by>
+                        <sys_updated_on>2018-01-22 19:14:20</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2018-01-22 11:14:20">bcda1c8edbf70700fb5f9646db96192b</portal_section>
+                        <sys_created_by>nick.ryan</sys_created_by>
+                        <sys_created_on>2018-01-22 19:14:20</sys_created_on>
+                        <sys_id>f8da1c8edbf70700fb5f9646db96192d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>nick.ryan</sys_updated_by>
+                        <sys_updated_on>2018-01-22 19:14:20</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Discovery">835adc4edbf70700fb5f9646db961955</page>
+                <summary>[ITOM] Discovery - Server Usage Total</summary>
+                <sys_created_by>nick.ryan</sys_created_by>
+                <sys_created_on>2018-01-22 19:14:47</sys_created_on>
+                <sys_id>d3ea9c8edbf70700fb5f9646db9619ac</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>nick.ryan</sys_updated_by>
+                <sys_updated_on>2018-01-22 19:14:47</sys_updated_on>
+                <related_items_node>
+                    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                        <grid_canvas display_value="PA New Tab">075adc4edbf70700fb5f9646db961956</grid_canvas>
+                        <height>10</height>
+                        <portal_widget display_value="Created 2018-01-22 11:14:47">d3ea9c8edbf70700fb5f9646db9619ac</portal_widget>
+                        <posx>8</posx>
+                        <posy>10</posy>
+                        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                        <sys_created_by>nick.ryan</sys_created_by>
+                        <sys_created_on>2018-01-22 19:14:47</sys_created_on>
+                        <sys_id>93eadc8edbf70700fb5f9646db96199d</sys_id>
+                        <sys_mod_count>8</sys_mod_count>
+                        <sys_name>075adc4edbf70700fb5f9646db961956</sys_name>
+                        <sys_package display_value="ITOM Usage" source="x_snc_itom_usage">a9480fe0dbb38b00fb5f9646db9619ad</sys_package>
+                        <sys_policy/>
+                        <sys_scope display_value="ITOM Usage">a9480fe0dbb38b00fb5f9646db9619ad</sys_scope>
+                        <sys_update_name>sys_grid_canvas_pane_93eadc8edbf70700fb5f9646db96199d</sys_update_name>
+                        <sys_updated_by>nick.ryan</sys_updated_by>
+                        <sys_updated_on>2018-01-22 19:22:08</sys_updated_on>
+                        <width>4</width>
+                    </sys_grid_canvas_pane>
+                </related_items_node>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2018-01-22 11:14:47">d3ea9c8edbf70700fb5f9646db9619ac</portal_section>
+                        <sys_created_by>nick.ryan</sys_created_by>
+                        <sys_created_on>2018-01-22 19:14:47</sys_created_on>
+                        <sys_id>13ea9c8edbf70700fb5f9646db9619ad</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>nick.ryan</sys_updated_by>
+                        <sys_updated_on>2018-01-22 19:14:47</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2018-01-22 11:14:47">d3ea9c8edbf70700fb5f9646db9619ac</portal_section>
+                        <sys_created_by>nick.ryan</sys_created_by>
+                        <sys_created_on>2018-01-22 19:14:47</sys_created_on>
+                        <sys_id>1bea9c8edbf70700fb5f9646db9619ac</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>nick.ryan</sys_updated_by>
+                        <sys_updated_on>2018-01-22 19:14:47</sys_updated_on>
+                        <value>52d9984edbf70700fb5f9646db96195b</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2018-01-22 11:14:47">d3ea9c8edbf70700fb5f9646db9619ac</portal_section>
+                        <sys_created_by>nick.ryan</sys_created_by>
+                        <sys_created_on>2018-01-22 19:14:47</sys_created_on>
+                        <sys_id>1fea9c8edbf70700fb5f9646db9619ad</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>nick.ryan</sys_updated_by>
+                        <sys_updated_on>2018-01-22 19:14:47</sys_updated_on>
+                        <value>[ITOM] Discovery - Server Usage Total</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2018-01-22 11:14:47">d3ea9c8edbf70700fb5f9646db9619ac</portal_section>
+                        <sys_created_by>nick.ryan</sys_created_by>
+                        <sys_created_on>2018-01-22 19:14:47</sys_created_on>
+                        <sys_id>5bea9c8edbf70700fb5f9646db9619ad</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>nick.ryan</sys_updated_by>
+                        <sys_updated_on>2018-01-22 19:14:47</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2018-01-22 11:14:47">d3ea9c8edbf70700fb5f9646db9619ac</portal_section>
+                        <sys_created_by>nick.ryan</sys_created_by>
+                        <sys_created_on>2018-01-22 19:14:47</sys_created_on>
+                        <sys_id>5fea9c8edbf70700fb5f9646db9619ac</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>nick.ryan</sys_updated_by>
+                        <sys_updated_on>2018-01-22 19:14:47</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2018-01-22 11:14:47">d3ea9c8edbf70700fb5f9646db9619ac</portal_section>
+                        <sys_created_by>nick.ryan</sys_created_by>
+                        <sys_created_on>2018-01-22 19:14:47</sys_created_on>
+                        <sys_id>97ea9c8edbf70700fb5f9646db9619ad</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>nick.ryan</sys_updated_by>
+                        <sys_updated_on>2018-01-22 19:14:47</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2018-01-22 11:14:47">d3ea9c8edbf70700fb5f9646db9619ac</portal_section>
+                        <sys_created_by>nick.ryan</sys_created_by>
+                        <sys_created_on>2018-01-22 19:14:47</sys_created_on>
+                        <sys_id>d3ea9c8edbf70700fb5f9646db9619ad</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>nick.ryan</sys_updated_by>
+                        <sys_updated_on>2018-01-22 19:14:47</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

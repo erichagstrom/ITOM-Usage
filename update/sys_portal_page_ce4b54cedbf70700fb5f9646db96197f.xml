@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2018-01-22 21:45:59">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>snc_internal</read_roles>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2018-01-22 19:16:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ce4b54cedbf70700fb5f9646db96197f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>PA Cloud Management</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ITOM Usage" source="x_snc_itom_usage">a9480fe0dbb38b00fb5f9646db9619ad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITOM Usage">a9480fe0dbb38b00fb5f9646db9619ad</sys_scope>
+        <sys_update_name>sys_portal_page_ce4b54cedbf70700fb5f9646db96197f</sys_update_name>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2018-01-22 19:16:27</sys_updated_on>
+        <title>PA Cloud Management</title>
+        <user/>
+        <view>pa_new_tab_5_5</view>
+    </sys_portal_page>
+</record_update>
