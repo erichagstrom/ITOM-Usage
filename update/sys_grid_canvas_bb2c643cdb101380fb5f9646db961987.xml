@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_grid_canvas" unload_date="2018-02-12 19:57:42">
+    <sys_grid_canvas action="INSERT_OR_UPDATE">
+        <legacy_page display_value="PA Operational Intelligence">b72c643cdb101380fb5f9646db961986</legacy_page>
+        <name>PA New Tab 6</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2018-02-12 19:49:11</sys_created_on>
+        <sys_id>bb2c643cdb101380fb5f9646db961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA New Tab 6</sys_name>
+        <sys_package display_value="ITOM Usage" source="x_snc_itom_usage">a9480fe0dbb38b00fb5f9646db9619ad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITOM Usage">a9480fe0dbb38b00fb5f9646db9619ad</sys_scope>
+        <sys_update_name>sys_grid_canvas_bb2c643cdb101380fb5f9646db961987</sys_update_name>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2018-02-12 19:49:11</sys_updated_on>
+        <related_items_node>
+            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                <grid_canvas display_value="PA New Tab 6">bb2c643cdb101380fb5f9646db961987</grid_canvas>
+                <height>10</height>
+                <portal_widget display_value="Created 2018-02-12 11:50:22">997ce43cdb101380fb5f9646db961905</portal_widget>
+                <posx>0</posx>
+                <posy>0</posy>
+                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                <sys_created_by>nick.ryan</sys_created_by>
+                <sys_created_on>2018-02-12 19:50:22</sys_created_on>
+                <sys_id>d57ce43cdb101380fb5f9646db961907</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_name>bb2c643cdb101380fb5f9646db961987</sys_name>
+                <sys_package display_value="ITOM Usage" source="x_snc_itom_usage">a9480fe0dbb38b00fb5f9646db9619ad</sys_package>
+                <sys_policy/>
+                <sys_scope display_value="ITOM Usage">a9480fe0dbb38b00fb5f9646db9619ad</sys_scope>
+                <sys_update_name>sys_grid_canvas_pane_d57ce43cdb101380fb5f9646db961907</sys_update_name>
+                <sys_updated_by>nick.ryan</sys_updated_by>
+                <sys_updated_on>2018-02-12 19:50:22</sys_updated_on>
+                <width>12</width>
+                <related_items_node>
+                    <sys_portal action="INSERT_OR_UPDATE">
+                        <dropzone/>
+                        <offset/>
+                        <page display_value="PA Operational Intelligence">b72c643cdb101380fb5f9646db961986</page>
+                        <summary>[ITOM] Operational Intelligence - DEF1000221</summary>
+                        <sys_created_by>nick.ryan</sys_created_by>
+                        <sys_created_on>2018-02-12 19:50:22</sys_created_on>
+                        <sys_id>997ce43cdb101380fb5f9646db961905</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>nick.ryan</sys_updated_by>
+                        <sys_updated_on>2018-02-12 19:50:22</sys_updated_on>
+                        <related_items_node>
+                            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                                <grid_canvas display_value="PA New Tab 6">bb2c643cdb101380fb5f9646db961987</grid_canvas>
+                                <height>10</height>
+                                <portal_widget display_value="Created 2018-02-12 11:50:22">997ce43cdb101380fb5f9646db961905</portal_widget>
+                                <posx>0</posx>
+                                <posy>0</posy>
+                                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                                <sys_created_by>nick.ryan</sys_created_by>
+                                <sys_created_on>2018-02-12 19:50:22</sys_created_on>
+                                <sys_id>d57ce43cdb101380fb5f9646db961907</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_name>bb2c643cdb101380fb5f9646db961987</sys_name>
+                                <sys_package display_value="ITOM Usage" source="x_snc_itom_usage">a9480fe0dbb38b00fb5f9646db9619ad</sys_package>
+                                <sys_policy/>
+                                <sys_scope display_value="ITOM Usage">a9480fe0dbb38b00fb5f9646db9619ad</sys_scope>
+                                <sys_update_name>sys_grid_canvas_pane_d57ce43cdb101380fb5f9646db961907</sys_update_name>
+                                <sys_updated_by>nick.ryan</sys_updated_by>
+                                <sys_updated_on>2018-02-12 19:50:22</sys_updated_on>
+                                <width>12</width>
+                            </sys_grid_canvas_pane>
+                        </related_items_node>
+                        <related_items_node>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>report_type</name>
+                                <portal_section display_value="Created 2018-02-12 11:50:22">997ce43cdb101380fb5f9646db961905</portal_section>
+                                <sys_created_by>nick.ryan</sys_created_by>
+                                <sys_created_on>2018-02-12 19:50:22</sys_created_on>
+                                <sys_id>1d7ce43cdb101380fb5f9646db961906</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>nick.ryan</sys_updated_by>
+                                <sys_updated_on>2018-02-12 19:50:22</sys_updated_on>
+                                <value>single_score</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>can_subscribe</name>
+                                <portal_section display_value="Created 2018-02-12 11:50:22">997ce43cdb101380fb5f9646db961905</portal_section>
+                                <sys_created_by>nick.ryan</sys_created_by>
+                                <sys_created_on>2018-02-12 19:50:22</sys_created_on>
+                                <sys_id>597ce43cdb101380fb5f9646db961906</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>nick.ryan</sys_updated_by>
+                                <sys_updated_on>2018-02-12 19:50:22</sys_updated_on>
+                                <value>true</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>help_text_window</name>
+                                <portal_section display_value="Created 2018-02-12 11:50:22">997ce43cdb101380fb5f9646db961905</portal_section>
+                                <sys_created_by>nick.ryan</sys_created_by>
+                                <sys_created_on>2018-02-12 19:50:22</sys_created_on>
+                                <sys_id>957ce43cdb101380fb5f9646db961906</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>nick.ryan</sys_updated_by>
+                                <sys_updated_on>2018-02-12 19:50:22</sys_updated_on>
+                                <value>report_widget_description</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>sys_id</name>
+                                <portal_section display_value="Created 2018-02-12 11:50:22">997ce43cdb101380fb5f9646db961905</portal_section>
+                                <sys_created_by>nick.ryan</sys_created_by>
+                                <sys_created_on>2018-02-12 19:50:22</sys_created_on>
+                                <sys_id>9d7ce43cdb101380fb5f9646db961905</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>nick.ryan</sys_updated_by>
+                                <sys_updated_on>2018-02-12 19:50:22</sys_updated_on>
+                                <value>030aac78db101380fb5f9646db96195b</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>renderer</name>
+                                <portal_section display_value="Created 2018-02-12 11:50:22">997ce43cdb101380fb5f9646db961905</portal_section>
+                                <sys_created_by>nick.ryan</sys_created_by>
+                                <sys_created_on>2018-02-12 19:50:22</sys_created_on>
+                                <sys_id>d17ce43cdb101380fb5f9646db961906</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>nick.ryan</sys_updated_by>
+                                <sys_updated_on>2018-02-12 19:50:22</sys_updated_on>
+                                <value>com.glide.ui.portal.RenderReport</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title</name>
+                                <portal_section display_value="Created 2018-02-12 11:50:22">997ce43cdb101380fb5f9646db961905</portal_section>
+                                <sys_created_by>nick.ryan</sys_created_by>
+                                <sys_created_on>2018-02-12 19:50:22</sys_created_on>
+                                <sys_id>dd7ce43cdb101380fb5f9646db961906</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>nick.ryan</sys_updated_by>
+                                <sys_updated_on>2018-02-12 19:50:22</sys_updated_on>
+                                <value>[ITOM] Operational Intelligence - DEF1000221</value>
+                            </sys_portal_preferences>
+                        </related_items_node>
+                    </sys_portal>
+                </related_items_node>
+            </sys_grid_canvas_pane>
+        </related_items_node>
+    </sys_grid_canvas>
+</record_update>

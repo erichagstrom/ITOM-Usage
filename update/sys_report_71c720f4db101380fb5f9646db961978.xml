@@ -2,7 +2,7 @@
 <record_update table="sys_report">
     <sys_report action="INSERT_OR_UPDATE">
         <additional_groupby/>
-        <aggregate>COUNT</aggregate>
+        <aggregate>SUM</aggregate>
         <allow_data_label_overlap>false</allow_data_label_overlap>
         <axis_max_color display_value="UI14 Blue Light">b0d449b3d7332100fa6c0c12ce610383</axis_max_color>
         <axis_min_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</axis_min_color>
@@ -38,9 +38,11 @@
         <donut_width_percent>50</donut_width_percent>
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
-        <field>change_control</field>
+        <field>time_stamp</field>
         <field_list/>
-        <filter/>
+        <filter table="usageanalytics_count">definition_id=DEF1000115^sys_created_onONYesterday@javascript:gs.beginningOfYesterday()@javascript:gs.endOfYesterday()<item endquery="false" field="definition_id" goto="false" newquery="false" operator="=" or="false" value="DEF1000115"/>
+            <item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="ON" or="false" value="Yesterday@javascript:gs.beginningOfYesterday()@javascript:gs.endOfYesterday()"/>
+        </filter>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
         <gauge_autoscale>true</gauge_autoscale>
@@ -67,7 +69,7 @@
         <page_hdrftr/>
         <pivot_expanded>true</pivot_expanded>
         <report_drilldown/>
-        <report_source display_value="ITOM.Devices.Discovered (Hardware)">818b58cedbf70700fb5f9646db961956</report_source>
+        <report_source display_value="ITOM.usage.count (UsageAnalytics Counts for Tables)">23a6ac34db101380fb5f9646db9619bb</report_source>
         <roles/>
         <row/>
         <sc_groupby_item_id/>
@@ -90,21 +92,21 @@
         <show_zero>true</show_zero>
         <source_type>source</source_type>
         <start_time/>
-        <sumfield>change_control...</sumfield>
+        <sumfield>count</sumfield>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2018-01-22 19:21:37</sys_created_on>
-        <sys_id>677c5802db3b0700fb5f9646db961977</sys_id>
+        <sys_created_on>2018-02-12 19:29:55</sys_created_on>
+        <sys_id>71c720f4db101380fb5f9646db961978</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>[ITOM] Discovery - Device Usage Total</sys_name>
+        <sys_name>[ITOM] Discovery - DEF1000115</sys_name>
         <sys_package display_value="ITOM Usage" source="x_snc_itom_usage">a9480fe0dbb38b00fb5f9646db9619ad</sys_package>
         <sys_policy/>
         <sys_scope display_value="ITOM Usage">a9480fe0dbb38b00fb5f9646db9619ad</sys_scope>
-        <sys_update_name>sys_report_677c5802db3b0700fb5f9646db961977</sys_update_name>
+        <sys_update_name>sys_report_71c720f4db101380fb5f9646db961978</sys_update_name>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2018-01-22 19:21:37</sys_updated_on>
-        <table>cmdb_ci_hardware</table>
-        <title>[ITOM] Discovery - Device Usage Total</title>
+        <sys_updated_on>2018-02-12 19:29:55</sys_updated_on>
+        <table>usageanalytics_count</table>
+        <title>[ITOM] Discovery - DEF1000115</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
