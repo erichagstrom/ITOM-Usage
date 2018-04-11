@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="[ITOM] Service Mapping - DEF0022995">227cdb5fdbd59740979e7dba8c9619cb</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>eric.hagstrom</sys_created_by>
+        <sys_created_on>2018-04-11 20:07:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e67cdb5fdbd59740979e7dba8c9619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>227cdb5fdbd59740979e7dba8c9619cb</sys_name>
+        <sys_package display_value="ITOM Usage" source="x_snc_itom_usage">a9480fe0dbb38b00fb5f9646db9619ad</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ITOM Usage">a9480fe0dbb38b00fb5f9646db9619ad</sys_scope>
+        <sys_update_name>sys_report_users_groups_e67cdb5fdbd59740979e7dba8c9619cb</sys_update_name>
+        <sys_updated_by>eric.hagstrom</sys_updated_by>
+        <sys_updated_on>2018-04-11 20:07:00</sys_updated_on>
+        <user_id display_value="Eric Hagstrom">9af22056dbe52200a6b3717bbf96196b</user_id>
+    </sys_report_users_groups>
+</record_update>
