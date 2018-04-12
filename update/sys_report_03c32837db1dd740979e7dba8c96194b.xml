@@ -2,7 +2,7 @@
 <record_update table="sys_report">
     <sys_report action="INSERT_OR_UPDATE">
         <additional_groupby/>
-        <aggregate>SUM</aggregate>
+        <aggregate>COUNT</aggregate>
         <allow_data_label_overlap>false</allow_data_label_overlap>
         <axis_max_color display_value="UI14 Blue Light">b0d449b3d7332100fa6c0c12ce610383</axis_max_color>
         <axis_min_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</axis_min_color>
@@ -13,7 +13,7 @@
         <chart_border_width>1</chart_border_width>
         <chart_height>450</chart_height>
         <chart_size>large</chart_size>
-        <chart_title>Service Mapping Maps</chart_title>
+        <chart_title/>
         <chart_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</chart_title_color>
         <chart_title_size>16</chart_title_size>
         <chart_title_x_position>0</chart_title_x_position>
@@ -29,7 +29,7 @@
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
         <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
-        <decimal_precision>2</decimal_precision>
+        <decimal_precision>0</decimal_precision>
         <description/>
         <direction>minimize</direction>
         <display_column_lines>false</display_column_lines>
@@ -38,11 +38,9 @@
         <donut_width_percent>50</donut_width_percent>
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
-        <field>time_stamp</field>
+        <field/>
         <field_list/>
-        <filter table="usageanalytics_count">definition_id=DEF0022995^sys_created_onONLast month@javascript:gs.beginningOfLastMonth()@javascript:gs.endOfLastMonth()<item endquery="false" field="definition_id" goto="false" newquery="false" operator="=" or="false" value="DEF0022995"/>
-            <item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="ON" or="false" value="Last month@javascript:gs.beginningOfLastMonth()@javascript:gs.endOfLastMonth()"/>
-        </filter>
+        <filter/>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
         <gauge_autoscale>true</gauge_autoscale>
@@ -69,7 +67,7 @@
         <page_hdrftr/>
         <pivot_expanded>true</pivot_expanded>
         <report_drilldown/>
-        <report_source display_value="ITOM.usage.count (UsageAnalytics Counts for Tables)">23a6ac34db101380fb5f9646db9619bb</report_source>
+        <report_source/>
         <roles/>
         <row/>
         <sc_groupby_item_id/>
@@ -81,7 +79,7 @@
         <set_color>one_color</set_color>
         <show_chart_border>false</show_chart_border>
         <show_chart_data_label>false</show_chart_data_label>
-        <show_chart_title>always</show_chart_title>
+        <show_chart_title>report</show_chart_title>
         <show_chart_total>false</show_chart_total>
         <show_data_label_position_middle>false</show_data_label_position_middle>
         <show_empty>false</show_empty>
@@ -89,35 +87,35 @@
         <show_legend>true</show_legend>
         <show_legend_border>false</show_legend_border>
         <show_marker>true</show_marker>
-        <show_zero>true</show_zero>
-        <source_type>source</source_type>
+        <show_zero>false</show_zero>
+        <source_type>table</source_type>
         <start_time/>
-        <sumfield>count</sumfield>
+        <sumfield/>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>eric.hagstrom</sys_created_by>
-        <sys_created_on>2018-04-11 20:07:00</sys_created_on>
+        <sys_created_on>2018-04-12 19:57:06</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>227cdb5fdbd59740979e7dba8c9619cb</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>[ITOM] Service Mapping - DEF0022995</sys_name>
+        <sys_id>03c32837db1dd740979e7dba8c96194b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>[ITOM] Event Management Nodes</sys_name>
         <sys_package display_value="ITOM Usage" source="x_snc_itom_usage">a9480fe0dbb38b00fb5f9646db9619ad</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ITOM Usage">a9480fe0dbb38b00fb5f9646db9619ad</sys_scope>
-        <sys_update_name>sys_report_227cdb5fdbd59740979e7dba8c9619cb</sys_update_name>
+        <sys_update_name>sys_report_03c32837db1dd740979e7dba8c96194b</sys_update_name>
         <sys_updated_by>eric.hagstrom</sys_updated_by>
-        <sys_updated_on>2018-04-11 20:26:45</sys_updated_on>
-        <table>usageanalytics_count</table>
-        <title>[ITOM] Service Mapping - DEF0022995</title>
+        <sys_updated_on>2018-04-12 19:57:06</sys_updated_on>
+        <table>em_unique_nodes</table>
+        <title>[ITOM] Event Management Nodes</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
         <trend_field/>
-        <type>single_score</type>
+        <type>list</type>
         <upper_limit/>
         <use_color_heatmap>false</use_color_heatmap>
         <use_color_palette>false</use_color_palette>
-        <user>1796b393db1ac300fb5f9646db9619ad</user>
+        <user>9af22056dbe52200a6b3717bbf96196b</user>
         <x_axis_display_grid>false</x_axis_display_grid>
         <x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color>
         <x_axis_grid_dotted>false</x_axis_grid_dotted>

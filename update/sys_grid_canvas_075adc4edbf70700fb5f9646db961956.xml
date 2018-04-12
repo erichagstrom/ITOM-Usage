@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update node_type="sys_grid_canvas" unload_date="2018-04-11 20:14:11">
+<record_update node_type="sys_grid_canvas" unload_date="2018-04-12 20:36:46">
     <sys_grid_canvas action="INSERT_OR_UPDATE">
         <legacy_page display_value="PA Discovery">835adc4edbf70700fb5f9646db961955</legacy_page>
         <name>PA New Tab</name>
@@ -29,15 +29,15 @@
                 <sys_created_on>2018-02-12 19:30:23</sys_created_on>
                 <sys_customer_update>false</sys_customer_update>
                 <sys_id>a8e7e8f4db101380fb5f9646db96192f</sys_id>
-                <sys_mod_count>0</sys_mod_count>
+                <sys_mod_count>2</sys_mod_count>
                 <sys_name>075adc4edbf70700fb5f9646db961956</sys_name>
                 <sys_package display_value="ITOM Usage" source="x_snc_itom_usage">a9480fe0dbb38b00fb5f9646db9619ad</sys_package>
                 <sys_policy/>
                 <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
                 <sys_scope display_value="ITOM Usage">a9480fe0dbb38b00fb5f9646db9619ad</sys_scope>
                 <sys_update_name>sys_grid_canvas_pane_a8e7e8f4db101380fb5f9646db96192f</sys_update_name>
-                <sys_updated_by>nick.ryan</sys_updated_by>
-                <sys_updated_on>2018-02-12 19:30:23</sys_updated_on>
+                <sys_updated_by>eric.hagstrom</sys_updated_by>
+                <sys_updated_on>2018-04-12 19:10:57</sys_updated_on>
                 <width>12</width>
                 <related_items_node>
                     <sys_portal action="INSERT_OR_UPDATE">
@@ -63,15 +63,15 @@
                                 <sys_created_on>2018-02-12 19:30:23</sys_created_on>
                                 <sys_customer_update>false</sys_customer_update>
                                 <sys_id>a8e7e8f4db101380fb5f9646db96192f</sys_id>
-                                <sys_mod_count>0</sys_mod_count>
+                                <sys_mod_count>2</sys_mod_count>
                                 <sys_name>075adc4edbf70700fb5f9646db961956</sys_name>
                                 <sys_package display_value="ITOM Usage" source="x_snc_itom_usage">a9480fe0dbb38b00fb5f9646db9619ad</sys_package>
                                 <sys_policy/>
                                 <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
                                 <sys_scope display_value="ITOM Usage">a9480fe0dbb38b00fb5f9646db9619ad</sys_scope>
                                 <sys_update_name>sys_grid_canvas_pane_a8e7e8f4db101380fb5f9646db96192f</sys_update_name>
-                                <sys_updated_by>nick.ryan</sys_updated_by>
-                                <sys_updated_on>2018-02-12 19:30:23</sys_updated_on>
+                                <sys_updated_by>eric.hagstrom</sys_updated_by>
+                                <sys_updated_on>2018-04-12 19:10:57</sys_updated_on>
                                 <width>12</width>
                             </sys_grid_canvas_pane>
                         </related_items_node>
@@ -156,6 +156,145 @@
                         </related_items_node>
                     </sys_portal>
                 </related_items_node>
+                <related_items_node>
+                    <sys_portal action="INSERT_OR_UPDATE">
+                        <dropzone/>
+                        <offset/>
+                        <page display_value="PA Discovery">835adc4edbf70700fb5f9646db961955</page>
+                        <summary>[ITOM] Discovered Nodes</summary>
+                        <sys_created_by>eric.hagstrom</sys_created_by>
+                        <sys_created_on>2018-04-12 19:10:43</sys_created_on>
+                        <sys_id>eb2950bbdbd9d740979e7dba8c96196f</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>eric.hagstrom</sys_updated_by>
+                        <sys_updated_on>2018-04-12 19:10:43</sys_updated_on>
+                        <related_items_node>
+                            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                                <grid_canvas display_value="PA New Tab">075adc4edbf70700fb5f9646db961956</grid_canvas>
+                                <height>10</height>
+                                <portal_widget display_value="Created 2018-04-12 14:10:43">eb2950bbdbd9d740979e7dba8c96196f</portal_widget>
+                                <posx>0</posx>
+                                <posy>10</posy>
+                                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                                <sys_created_by>eric.hagstrom</sys_created_by>
+                                <sys_created_on>2018-04-12 19:10:43</sys_created_on>
+                                <sys_customer_update>false</sys_customer_update>
+                                <sys_id>b72950bbdbd9d740979e7dba8c961973</sys_id>
+                                <sys_mod_count>1</sys_mod_count>
+                                <sys_name/>
+                                <sys_package display_value="ITOM Usage" source="x_snc_itom_usage">a9480fe0dbb38b00fb5f9646db9619ad</sys_package>
+                                <sys_policy/>
+                                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                                <sys_scope display_value="ITOM Usage">a9480fe0dbb38b00fb5f9646db9619ad</sys_scope>
+                                <sys_update_name>sys_grid_canvas_pane_b72950bbdbd9d740979e7dba8c961973</sys_update_name>
+                                <sys_updated_by>eric.hagstrom</sys_updated_by>
+                                <sys_updated_on>2018-04-12 19:10:57</sys_updated_on>
+                                <width>12</width>
+                            </sys_grid_canvas_pane>
+                        </related_items_node>
+                        <related_items_node>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>sys_id</name>
+                                <portal_section display_value="Created 2018-04-12 14:10:43">eb2950bbdbd9d740979e7dba8c96196f</portal_section>
+                                <sys_created_by>eric.hagstrom</sys_created_by>
+                                <sys_created_on>2018-04-12 19:10:43</sys_created_on>
+                                <sys_id>272950bbdbd9d740979e7dba8c961970</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>eric.hagstrom</sys_updated_by>
+                                <sys_updated_on>2018-04-12 19:10:43</sys_updated_on>
+                                <value>fc1950bbdbd9d740979e7dba8c961931</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>can_publish</name>
+                                <portal_section display_value="Created 2018-04-12 14:10:43">eb2950bbdbd9d740979e7dba8c96196f</portal_section>
+                                <sys_created_by>eric.hagstrom</sys_created_by>
+                                <sys_created_on>2018-04-12 19:10:43</sys_created_on>
+                                <sys_id>272950bbdbd9d740979e7dba8c961971</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>eric.hagstrom</sys_updated_by>
+                                <sys_updated_on>2018-04-12 19:10:43</sys_updated_on>
+                                <value>false</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>help_text_window</name>
+                                <portal_section display_value="Created 2018-04-12 14:10:43">eb2950bbdbd9d740979e7dba8c96196f</portal_section>
+                                <sys_created_by>eric.hagstrom</sys_created_by>
+                                <sys_created_on>2018-04-12 19:10:43</sys_created_on>
+                                <sys_id>632950bbdbd9d740979e7dba8c961971</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>eric.hagstrom</sys_updated_by>
+                                <sys_updated_on>2018-04-12 19:10:43</sys_updated_on>
+                                <value>report_widget_description</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title</name>
+                                <portal_section display_value="Created 2018-04-12 14:10:43">eb2950bbdbd9d740979e7dba8c96196f</portal_section>
+                                <sys_created_by>eric.hagstrom</sys_created_by>
+                                <sys_created_on>2018-04-12 19:10:43</sys_created_on>
+                                <sys_id>6f2950bbdbd9d740979e7dba8c961971</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>eric.hagstrom</sys_updated_by>
+                                <sys_updated_on>2018-04-12 19:10:43</sys_updated_on>
+                                <value>[ITOM] Discovered Nodes</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>report_type</name>
+                                <portal_section display_value="Created 2018-04-12 14:10:43">eb2950bbdbd9d740979e7dba8c96196f</portal_section>
+                                <sys_created_by>eric.hagstrom</sys_created_by>
+                                <sys_created_on>2018-04-12 19:10:43</sys_created_on>
+                                <sys_id>ab2950bbdbd9d740979e7dba8c961971</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>eric.hagstrom</sys_updated_by>
+                                <sys_updated_on>2018-04-12 19:10:43</sys_updated_on>
+                                <value>list</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>renderer</name>
+                                <portal_section display_value="Created 2018-04-12 14:10:43">eb2950bbdbd9d740979e7dba8c96196f</portal_section>
+                                <sys_created_by>eric.hagstrom</sys_created_by>
+                                <sys_created_on>2018-04-12 19:10:43</sys_created_on>
+                                <sys_id>af2950bbdbd9d740979e7dba8c961970</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>eric.hagstrom</sys_updated_by>
+                                <sys_updated_on>2018-04-12 19:10:43</sys_updated_on>
+                                <value>com.glide.ui.portal.RenderReport</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>can_subscribe</name>
+                                <portal_section display_value="Created 2018-04-12 14:10:43">eb2950bbdbd9d740979e7dba8c96196f</portal_section>
+                                <sys_created_by>eric.hagstrom</sys_created_by>
+                                <sys_created_on>2018-04-12 19:10:43</sys_created_on>
+                                <sys_id>e72950bbdbd9d740979e7dba8c961971</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>eric.hagstrom</sys_updated_by>
+                                <sys_updated_on>2018-04-12 19:10:43</sys_updated_on>
+                                <value>true</value>
+                            </sys_portal_preferences>
+                        </related_items_node>
+                    </sys_portal>
+                </related_items_node>
+            </sys_grid_canvas_pane>
+            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                <grid_canvas display_value="PA New Tab">075adc4edbf70700fb5f9646db961956</grid_canvas>
+                <height>10</height>
+                <portal_widget display_value="Created 2018-04-12 14:10:43">eb2950bbdbd9d740979e7dba8c96196f</portal_widget>
+                <posx>0</posx>
+                <posy>10</posy>
+                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                <sys_created_by>eric.hagstrom</sys_created_by>
+                <sys_created_on>2018-04-12 19:10:43</sys_created_on>
+                <sys_customer_update>false</sys_customer_update>
+                <sys_id>b72950bbdbd9d740979e7dba8c961973</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_name/>
+                <sys_package display_value="ITOM Usage" source="x_snc_itom_usage">a9480fe0dbb38b00fb5f9646db9619ad</sys_package>
+                <sys_policy/>
+                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                <sys_scope display_value="ITOM Usage">a9480fe0dbb38b00fb5f9646db9619ad</sys_scope>
+                <sys_update_name>sys_grid_canvas_pane_b72950bbdbd9d740979e7dba8c961973</sys_update_name>
+                <sys_updated_by>eric.hagstrom</sys_updated_by>
+                <sys_updated_on>2018-04-12 19:10:57</sys_updated_on>
+                <width>12</width>
             </sys_grid_canvas_pane>
         </related_items_node>
     </sys_grid_canvas>
