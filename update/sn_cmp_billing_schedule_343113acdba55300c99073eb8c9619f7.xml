@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sn_cmp_billing_schedule">
+    <sn_cmp_billing_schedule action="INSERT_OR_UPDATE">
+        <account display_value="Gotdedupe Amazon">338387b8dbef0300bcd17ffdbf961901</account>
+        <active>true</active>
+        <bucket>gotdedupe-billing</bucket>
+        <condition/>
+        <conditional>false</conditional>
+        <credential display_value="Gotdedupe Credentials">09db6f71db316600a6b3717bbf961919</credential>
+        <current_job_details>Import complete</current_job_details>
+        <current_job_status>Finish</current_job_status>
+        <last_executed_on>2018-04-16 05:02:54</last_executed_on>
+        <last_executed_state>success</last_executed_state>
+        <last_successful_on>2018-04-16 05:02:54</last_successful_on>
+        <name>Gotdedupe AWS Billing</name>
+        <provider display_value="AWS">c9df10a0933622004a9032bfa67ffb0f</provider>
+        <run_as display_value="Eric Hagstrom">9af22056dbe52200a6b3717bbf96196b</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2018-04-15 16:30:08</run_start>
+        <run_time>1970-01-01 06:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[var billingUtil = new sn_cmp.CmpBillingJobUtil(); 
+if(!billingUtil.isBillingWorkflowExecuting('343113acdba55300c99073eb8c9619f7'));
+    billingUtil.runThisJob('343113acdba55300c99073eb8c9619f7');]]></script>
+        <sys_class_name>sn_cmp_billing_schedule</sys_class_name>
+        <sys_created_by>eric.hagstrom</sys_created_by>
+        <sys_created_on>2018-04-15 16:34:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>343113acdba55300c99073eb8c9619f7</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Gotdedupe AWS Billing</sys_name>
+        <sys_package display_value="ITOM Usage" source="x_snc_itom_usage">a9480fe0dbb38b00fb5f9646db9619ad</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ITOM Usage">a9480fe0dbb38b00fb5f9646db9619ad</sys_scope>
+        <sys_update_name>sn_cmp_billing_schedule_343113acdba55300c99073eb8c9619f7</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-04-16 05:02:54</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sn_cmp_billing_schedule>
+</record_update>
